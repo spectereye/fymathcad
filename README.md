@@ -1,10 +1,10 @@
-﻿# FyMathCAD
+﻿# FyMathcad
 
-FyMathCAD is a free Windows utility that provides productivity tools for PTC Mathcad Prime.
+FyMathcad is a free Windows utility that provides productivity tools for PTC Mathcad Prime.
 
 The first included tool is a Table of Contents generator for Mathcad worksheets.
 
-![FyMathCAD screenshot](screenshots/screenshot.png)
+![FyMathcad screenshot](screenshots/screenshot.png)
 
 ## Features
 
@@ -12,7 +12,7 @@ The first included tool is a Table of Contents generator for Mathcad worksheets.
 
 Open your saved worksheet in Mathcad Prime and make it active, then run **Print chapters**.
 
-FyMathCAD lists the saved level-1 headings and their page numbers in the application output.
+FyMathcad lists the saved level-1 headings and their page numbers in the application output.
 The list also includes a `=== START ===` entry representing the beginning of the worksheet.
 
 Previewing does not modify, save, close, or reopen the worksheet.
@@ -29,13 +29,13 @@ The generated TOC includes level-1 headings, with clickable links to the corresp
 
 **The worksheet is modified in place.**
 
-Before replacing the worksheet, FyMathCAD validates the prepared file and
+Before replacing the worksheet, FyMathcad validates the prepared file and
 creates a timestamped backup in a `__backup` folder beside the original worksheet.
 The backup location is shown in the application output.
 
 The active worksheet is selected at the start of each graphical action.
 
-When **Insert TOC** is run, FyMathCAD saves any unsaved changes and closes the worksheet before editing it.
+When **Insert TOC** is run, FyMathcad saves any unsaved changes and closes the worksheet before editing it.
 After processing, it attempts to reopen the worksheet even if TOC insertion fails.
 
 Untitled worksheets must first be saved as `.mcdx` files in Mathcad Prime.
@@ -57,10 +57,10 @@ Freeware for personal and commercial use.
 
 Copyright © 2026 spectereye@gmail.com. All rights reserved.
 
-See `LICENSE.txt` for license terms.
+See `LICENSE` for license terms.
 
 ## Updates
 
 For updates and more engineering tools, visit:
 
-https://tool.biggg.fun
+https://biggg.fun/App/FyMathcad
