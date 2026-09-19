@@ -6,6 +6,34 @@ The first included tool is a Table of Contents generator for Mathcad worksheets.
 
 ![FyMathcad screenshot](screenshots/screenshot.png)
 
+## Privacy and Security
+
+FyMathCAD runs locally on your computer and does not require an Internet connection.
+
+* Mathcad worksheets are processed locally and are not uploaded anywhere.
+* FyMathCAD does not collect telemetry or usage data.
+* Internet access can be blocked with Windows Firewall without affecting TOC functionality.
+* A timestamped backup is created before a worksheet is modified.
+* Release binaries are scanned with VirusTotal.
+* SHA-256 hashes are published with each release so downloaded files can be verified.
+
+See the corresponding GitHub Release for the VirusTotal report and SHA-256 checksum.
+
+### Windows SmartScreen Notice
+
+FyMathCAD is currently distributed as an unsigned freeware application.
+When you run FyMathCAD for the first time after downloading it, Windows may display:
+
+> Windows protected your PC
+> Microsoft Defender SmartScreen prevented an unrecognized app from starting.
+
+This warning is expected for a new, unsigned Windows application and does not by itself mean that the application contains malware.
+If you downloaded FyMathCAD from the official GitHub Releases page and want to continue:
+
+1. Click **More info**.
+2. Verify that the application is `MathcadTOC.exe`.
+3. Click **Run anyway**.
+
 ## Features
 
 ### Preview headings
